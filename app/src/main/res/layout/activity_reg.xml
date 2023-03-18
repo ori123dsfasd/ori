@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http:// schemas.android.com/apk/res-auto"
+    xmlns:tools="http:// schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".regtest"
+    android:background="@color/logc"
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/name"
+        android:layout_marginBottom="12dp"
+        android:text="New Here? Lets sign you up"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="345dp"
+        android:layout_height="223dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="498dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="394dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/email"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/button_frame"
+        android:hint="Enter your Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="394dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/passwd"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/button_frame"
+        android:hint="Enter your Email"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="394dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/cpass"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/button_frame"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:id="@+id/showhide1"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/passwd"
+        android:layout_alignBottom="@+id/passwd"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="5dp" />
+    <EditText
+        android:id="@+id/cpass"
+        android:layout_width="394dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btnregister"
+        android:layout_marginBottom="45dp"
+        android:hint="confirm your password"
+        android:inputType="textPassword"
+        android:background="@drawable/button_frame"
+
+        android:textColorHint="@color/white" android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/showhide2"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/cpass"
+        android:layout_alignBottom="@+id/cpass"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="5dp" />
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="62dp"
+        android:text="Register"
+        android:background="@drawable/button_frame"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@id/logi"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:background="@color/logoc"
+        android:text="heve an acount"/>
+
+
+</RelativeLayout>

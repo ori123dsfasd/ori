@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profilepicture"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:background="@color/logc">
+
+        <TextView
+            android:id="@+id/textView_upload_pic_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Upload your profile pic"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/upload_pic_choose_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_upload_pic_head"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/button_frame"
+            android:text="Choose Picture"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/filmpic"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_upload_pic_head"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="28dp"
+            android:background="@drawable/button_frame"
+            android:text="Take Picture"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView_profile_dp"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_frame"
+            android:layout_below="@id/upload_pic_choose_button"
+            android:contentDescription="ImageView to Display Pic" />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imageView_profile_dp"
+            android:id="@+id/upload_pic_button"
+            android:layout_marginTop="10dp"
+            android:text="Upload"
+            android:background="@drawable/button_frame"
+            android:textColor="@color/white"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</ScrollView>
+

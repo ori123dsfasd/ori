@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rananaskatepark"
+    android:background="@color/logc"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp"
+        android:src="@drawable/rananalogo" />
+
+    <TextView
+        android:layout_width="253dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="394dp"
+        android:text="skate park description"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:id="@+id/ds"/>
+
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="300dp"
+        android:text="ranna skate park have an vrey good flow also the skatepark have sun protection and water the skate park aint for begginers  "
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="216dp"
+        android:text="opening hours"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="163dp"
+        android:text="light close at 23:00 and form 18:00 only 16 year old and more"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="296dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/button_frame"
+        android:text="go back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:id="@+id/gomain"/>
+</RelativeLayout>

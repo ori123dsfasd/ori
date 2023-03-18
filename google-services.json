@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "458148085170",
+    "firebase_url": "https://orizalait-d790e-default-rtdb.firebaseio.com",
+    "project_id": "orizalait-d790e",
+    "storage_bucket": "orizalait-d790e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458148085170:android:775c29100ae827c2f538ab",
+        "android_client_info": {
+          "package_name": "com.example.spot_fnder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458148085170-kb1915bej75p16b8tjrgq23oss0q00vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaOZcaeSCbauoj266RQHSxDnfTfZOgQtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458148085170-kb1915bej75p16b8tjrgq23oss0q00vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
